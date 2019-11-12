@@ -10,7 +10,7 @@ def main():
         cur = number.pop(0)
         print(cur , "is prime.")
         
-        for j in numbers:
-            if j % current == 0:
-                numbers.remove(j)
+        for j in number:
+            if j % cur == 0:
+                number.remove(j)
 main()
